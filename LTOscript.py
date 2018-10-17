@@ -35,8 +35,8 @@ finalpath = os.path.join(filepath,filename) #sciezka do folderu w ktorym beda zn
 os.mkdir(finalpath)
 
 
-L5 = ['List of L5 LTO:']  # narazie mi sie nie chce tego poprawic i to jest na koncu listy (powinno byc na poczatku zeby ladnie wygladalo)
-L6 = ['List of L6 LTO:']
+L5 = ['']  
+L6 = ['']
 
 
 
