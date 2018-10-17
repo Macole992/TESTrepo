@@ -40,13 +40,14 @@ L6 = ['List of L6 LTO:']
 
 
 
-for id in ListToSaveFile:    #petla dzieli na plili z L5 i L6 > w zalozeniu ze nie ma np. L4 bo juz nie uzywamy, ale beda L7 wiec przerobie pozniej
+for id in ListToSaveFile:    #petla dzieli na plili z L5 i L6 > w zalozeniu ze nie ma np. L4 
     if id.endswith('L5'):
         L5.append(id)
     else:
         L6.append(id)
 
-#sortowanie list > zeby latwiej bylo odszukac te tasmy w sejfie bo mam je ulozone numerkami
+
+#sortowanie numerow tasm
 
 L5sort = sorted(L5)
 L6sort = sorted(L6)
