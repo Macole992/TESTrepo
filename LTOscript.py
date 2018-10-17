@@ -78,5 +78,5 @@ fileL6.close()
 
 #print(L5)
 #print(L6)
-#test GIT
+#test GIT2
 print("File:",filename,"was successfully created in:",filepath,"!")
